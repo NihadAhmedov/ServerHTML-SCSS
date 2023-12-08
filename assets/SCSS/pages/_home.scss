@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header {
+  form {
+    display: flex;
+    gap: 5px;
+    .btn {
+      background-color: green;
+      color: white;
+    }
+    .btn1 {
+      padding: 6px;
+      border: 0;
+      background-color: transparent;
+      border: 2px solid green;
+      width: 100px;
+
+      &:hover {
+        background-color: green;
+        color: white;
+      }
+    }
+  }
+}
+
+#backImage {
+  background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_1.jpg");
+  width: 100%;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  .customer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    h1 {
+      font-size: 65px;
+    }
+    p {
+      font-size: 20px;
+    }
+
+    .bttns {
+      button {
+        padding: 13px;
+        border: 0;
+      }
+      #btn1 {
+        background-color: green;
+        border: 2px solid green;
+
+        color: white;
+        width: 140px;
+      }
+      #btn2 {
+        background-color: transparent;
+        border: 2px solid white;
+        width: 140px;
+        color: white;
+
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .customer {
+    .bttns {
+      flex-direction: column;
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
+
+.different {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  h1 {
+    width: 62%;
+  }
+}
+
+main {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.hostingUmumi {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 29px;
+  box-shadow: 0 0 30px rgba($color: #595959, $alpha: 0.5);
+
+  i {
+    font-size: 65px;
+    color: green;
+    margin-bottom: 20px;
+  }
+  .btndetails {
+    display: flex;
+    justify-content: center;
+    button {
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      border: 0;
+      background-color: green;
+      border: 2px solid green;
+      margin-top: 10px;
+      color: white;
+
+      &:hover {
+        background-color: white;
+        border: 2px solid green;
+        color: green;
+      }
+    }
+  }
+}
+
+#imagesBack {
+  background-image: url("https://preview.colorlib.com/theme/server/images/hero_bg_3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+
+  .clients{
+
+    h1{
+        font-size: 65px;
+    }
+    button{
+        padding: 12px;
+        border: 0;
+        background-color: green;
+        color: white;
+        width: 150px;
+        margin-top: 15px;
+    }
+  }
+}
+
+footer{
+    background-color: rgb(101, 99, 99);
+    width: 100%;
+    min-height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
