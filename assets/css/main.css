@@ -70,6 +70,11 @@ header form .btn1:hover {
   color: black;
 }
 
+@media (max-width: 320px) {
+  #backImage .customer h1 {
+    font-size: 55px;
+  }
+}
 @media (max-width: 350px) {
   .customer .bttns {
     flex-direction: column;
